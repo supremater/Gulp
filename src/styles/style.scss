@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+
+  p {
+    background-color: green;
+    &:hover {
+      text-decoration: none;
+    }
+    a {
+      color: #FFffff;
+      text-decoration: none;
+    }
+  }
+}
